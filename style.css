@@ -1,0 +1,15 @@
+.board{
+    height: 500px;
+    width: 500px;
+    border:solid 4px brown;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    
+}
+.item{
+    background-color: black;
+}
+.item1{
+    background-color: white;
+}
